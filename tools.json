@@ -1,0 +1,32 @@
+[
+  {
+    "name": "leadmagic_find_email",
+    "description": "Find a work email by first name, last name and company domain, via LeadMagic. Every email returned is already SMTP/deliverability-validated on LeadMagic's side; a confirmed no-match is free (0 credits). Example: leadmagic_find_email({ first_name: \"Patrick\", last_name: \"Collison\", domain: \"stripe.com\", _apiKey: \"your-leadmagic-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "first_name": {
+          "type": "string",
+          "description": "Person's first name, e.g. \"Patrick\""
+        },
+        "last_name": {
+          "type": "string",
+          "description": "Person's last name, e.g. \"Collison\""
+        },
+        "domain": {
+          "type": "string",
+          "description": "Company domain, no protocol, e.g. \"stripe.com\""
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your LeadMagic API key (get one at leadmagic.io)."
+        }
+      },
+      "required": [
+        "first_name",
+        "last_name",
+        "domain"
+      ]
+    }
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-leadmagic",
-  "version": "0.2.1",
-  "description": "LeadMagic MCP — wraps the LeadMagic B2B email-finder API (leadmagic.io)",
+  "version": "0.2.2",
+  "description": "Unofficial LeadMagic MCP — wraps the LeadMagic B2B email-finder API (leadmagic.io)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "leadmagic",
     "gatewaySlug": "leadmagic",
-    "sourceHash": "v1-626306fc93b3516f732588c5293bc0c200d08d90cbe98ab3e97ac0667d7269bb",
-    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
+    "sourceHash": "v1-254965baabb118799996c06e49ffc89a26e93be402026d250f0e65b2c027b2e8",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }
